@@ -1,0 +1,19 @@
+{
+  "name": "Open PRs from list",
+  "version": "0.0.0.1",
+  "manifest_version": 3,
+  "description": "A chromium extension to open multiple PRs from a list.",
+  "icons": {
+    "16": "icons/pull_request_16x16.png",
+    "32": "icons/pull_request_32x32.png",
+    "48": "icons/pull_request_48x48.png",
+    "128": "icons/pull_request_128x128.png"
+    
+  },
+  "action": {},
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  }
+}
