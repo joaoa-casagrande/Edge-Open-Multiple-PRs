@@ -1,4 +1,4 @@
-# Open_Multiple_PRs
+# Open Multiple PRs - Edge Extension
 
 A simple Edge extension to open selected Pull Requests from list.
 
